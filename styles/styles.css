@@ -1,0 +1,92 @@
+/* Estilos para centrar la imagen */
+.image-container {
+    text-align: center; /* Centrar horizontalmente */
+    
+}
+
+.image-container img {
+    display: block; /* Eliminar espacios debajo de la imagen */
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block; /* Convertir la imagen en un bloque */
+    margin: 0 auto; /* Centrar horizontalmente usando márgenes automáticos */
+    max-width: 100%; /* Asegurar que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    margin-top: 10px
+}
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de fondo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+    color: #333; /* Cambia el color de texto según tus preferencias */
+    padding: 20px; /* Espaciado alrededor del contenido principal */
+
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333; /* Cambia el color de fondo del encabezado según tus preferencias */
+    color: #fff; /* Cambia el color del texto del encabezado según tus preferencias */
+    padding: 10px 0; /* Espaciado en la parte superior e inferior del encabezado */
+    text-align: center;
+}
+
+/* Estilo del título principal */
+h1 {
+    font-size: 24px;
+}
+
+/* Estilo del contenido principal */
+main {
+    background-color: #fff; /* Cambia el color de fondo del contenido principal según tus preferencias */
+    border-radius: 4px; /* Bordes redondeados para el contenido principal */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaciado dentro del contenido principal */
+}
+
+/* Estilo de los párrafos y encabezados secundarios */
+p, h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #007bff; /* Cambia el color de los enlaces según tus preferencias */
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado en el estado de hover */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333; /* Cambia el color de fondo del pie de página según tus preferencias */
+    color: #fff; /* Cambia el color del texto del pie de página según tus preferencias */
+}
+
+/* Estilo para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Tamaño de fuente más grande en pantallas pequeñas */
+    }
+
+    /* Puedes agregar estilos específicos para pantallas pequeñas aquí */
+}
+
+/* Estilo para pantallas medianas y grandes (tabletas y escritorios) */
+@media screen and (min-width: 769px) {
+    body {
+        font-size: 18px; /* Tamaño de fuente más grande en pantallas más grandes */
+    }
+
+    /* Puedes agregar estilos específicos para pantallas medianas y grandes aquí */
+}
