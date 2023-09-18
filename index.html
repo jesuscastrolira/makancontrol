@@ -10,6 +10,20 @@
     <header>
         <h1>Control General del Restaurante</h1>
     </header>
+    <div>
+        <!-- Botón o elemento interactivo para ir a Control de Mermas -->
+        <button onclick="window.location.href = 'controldemermas.html'">Ir a Control de Mermas</button>
+    </div>  
+    <div>
+        <!-- Botón para ir a "Control de Neveras" -->
+    <button id="go-to-neveras">Ir a Control de Neveras</button>
+    <script>
+        document.getElementById("go-to-neveras").addEventListener("click", function () {
+            window.location.href = "control-de-neveras.html";
+        });
+    </script>
+
+    </div>
     <div class="image-container">
         <!-- Reemplaza "nombre-de-la-imagen.jpg" con el nombre real de tu imagen y su extensión -->
         <img class="black-and-white" src="images/makan-logo-2.webp" alt="Imagen centrada">

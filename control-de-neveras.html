@@ -1,0 +1,42 @@
+<!-- ... Encabezado y otros elementos HTML ... -->
+
+<main>
+    <link rel="stylesheet" href="styles/styles.css">
+    <h2>Registro de Neveras</h2>
+    
+    <form id="nevera-form">
+        <label for="nevera">Seleccione la Nevera:</label>
+        <select id="nevera" name="nevera">
+            <option value="Nevera #1">Nevera #1</option>
+            <option value="Nevera #2">Nevera #2</option>
+            <option value="Nevera #3">Nevera #3</option>
+            <option value="Nevera #4">Nevera #4</option>
+        </select>
+
+        <label for="temperatura">Temperatura:</label>
+        <input type="number" id="temperatura" name="temperatura" required>
+
+        <label for="momento">Momento del Día:</label>
+        <select id="momento" name="momento">
+            <option value="Mañana">Mañana</option>
+            <option value="Noche">Noche</option>
+        </select>
+
+        <button type="submit">Registrar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nevera</th>
+                <th>Temperatura</th>
+                <th>Momento del Día</th>
+            </tr>
+        </thead>
+        <tbody id="registro-list">
+            <!-- Aquí se mostrarán los registros -->
+        </tbody>
+    </table>
+</main>
+
+<!-- ... Pie de página y otros elementos HTML ... -->
