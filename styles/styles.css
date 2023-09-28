@@ -43,6 +43,16 @@ h1 {
     font-size: 24px;
 }
 
+/* Estilo para colocar los botones en línea */
+.button-container {
+    text-align: center; /* Centrar los botones horizontalmente */
+}
+
+.button-container button {
+    display: inline-block; /* Colocar los botones en línea uno al lado del otro */
+    margin-right: 10px; /* Espacio entre los botones (ajusta según sea necesario) */
+}
+
 /* Estilo del contenido principal */
 main {
     background-color: #fff; /* Cambia el color de fondo del contenido principal según tus preferencias */
